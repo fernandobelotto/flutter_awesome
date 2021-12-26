@@ -8,13 +8,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Awesome Flutter',
   tagline: 'Flutter is Google’s UI toolkit for building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://flutter-awesome.vercel.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'fernandobelotto', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  projectName: 'flutter_awesome', // Usually your repo name.
 
   presets: [
     [
@@ -45,7 +45,7 @@ const config = {
       navbar: {
         title: 'Awesome Flutter',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Flutter logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -70,7 +70,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Content',
                 to: '/docs/articles',
               },
             ],
@@ -80,28 +80,28 @@ const config = {
             items: [
               {
                 label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                href: 'https://stackoverflow.com/questions/tagged/flutter',
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discord.gg/sWM9sDEaMm',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/flutterdev',
               },
             ],
           },
           {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
+              // {
+              //   label: 'Blog',
+              //   to: '/blog',
+              // },
               {
                 label: 'GitHub',
-                href: 'https://github.com/fernandobelotto',
+                href: 'https://github.com/fernandobelotto/flutter_awesome',
               },
             ],
           },
